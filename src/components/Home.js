@@ -1,10 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import {data} from '../data'
+import Main from './Main';
+import Nav from './Nav';
 
 const Home = () => {
+    const [img, setImg] = useState(data);
+    // useEffect(() => {
+    //   return(setImg(()=>console.log("hello world")
+    //   ));
+    // },[img])
     return (
-        <div>
-            Hello from home
+        <header>
+            <Nav/>
+            <Main/>
+        <div className="wrapper">
+          {img.map((item) => {
+              const {id, name, url} = item;
+              return(
+                  <article key={id} className="video-wrapper">
+                      <video src={url} controls></video>
+                  </article>
+              )
+          })}
         </div>
+        </header>
     )
 }
 
