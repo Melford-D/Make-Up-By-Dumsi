@@ -242,7 +242,6 @@ nav .nav-items .nav-item {
   margin-top: 5px;
 }
 .logo-name .logo-dumsi h1 {
-  /* font-family: "Great Vibes"; */
   font-size: 3rem;
   line-height: 1;
   color: #cba35c;
@@ -250,6 +249,12 @@ nav .nav-items .nav-item {
 .logo-name h2 {
   font-size: 1rem;
   color: #fff;
+}
+/* Media Query Header */
+@media only screen and (max-width: 700px) {
+  .logo-name .logo-dumsi h1 {
+    font-family: "Great Vibes";
+  }
 }
 
 /* Main Section */
