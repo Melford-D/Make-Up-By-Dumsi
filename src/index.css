@@ -193,6 +193,7 @@ select {
 }
 body {
   background-color: #fefefe;
+  overflow: scroll;
 }
 
 /* Global reset */
