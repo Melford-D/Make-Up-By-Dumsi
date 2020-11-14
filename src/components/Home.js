@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import {data} from '../data'
 import Main from './Main';
-import Nav from './Nav';
-
 const Home = () => {
     const [img, setImg] = useState(data);
     // useEffect(() => {
@@ -11,7 +9,6 @@ const Home = () => {
     // },[img])
     return (
         <header>
-            <Nav/>
             <Main/>
         <div className="wrapper">
           {img.map((item) => {

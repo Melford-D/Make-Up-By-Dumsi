@@ -242,7 +242,7 @@ nav .nav-items .nav-item {
   margin-top: 5px;
 }
 .logo-name .logo-dumsi h1 {
-  font-family: "Great Vibes";
+  /* font-family: "Great Vibes"; */
   font-size: 3rem;
   line-height: 1;
   color: #cba35c;
@@ -282,7 +282,7 @@ main ul li {
 
 /* video */
 .wrapper {
-  width: 80%;
+  width: 62%;
   margin: 0 auto;
 }
 .video-wrapper {
