@@ -271,10 +271,10 @@ nav .nav-items-container {
   color: #fff;
 }
 /* Media Query Section */
-@media screen and (max-width: 800px) {
-  /* .logo-name .logo-dumsi h1 {
+@media screen and (max-width: 736px) {
+  .logo-name .logo-dumsi h1 {
     font-family: "Great Vibes";
-  } */
+  }
   nav .nav-items-container {
     position: relative;
     display: flex;
@@ -314,9 +314,9 @@ nav .nav-items-container {
   }
 }
 @media only screen and (max-width: 640px) {
-  /* .logo-name .logo-dumsi h1 {
+  .logo-name .logo-dumsi h1 {
     font-family: "Great Vibes";
-  } */
+  }
   nav .nav-items-container {
     position: relative;
     display: flex;
