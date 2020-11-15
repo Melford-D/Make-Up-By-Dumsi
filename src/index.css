@@ -205,7 +205,7 @@ header {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  z-index: 5;
+  z-index: 1;
 }
 /* Nav Main Section */
 nav {
@@ -214,44 +214,12 @@ nav {
   align-items: center;
   width: 100%;
   height: 12vh;
+  background-color: #111;
 }
 nav .nav-items-container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 410px;
-  right: 250px;
+  display: none;
 }
-nav .nav-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 300px;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  z-index: 10;
-}
-nav .nav-items .nav-item {
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 50px;
-  padding-bottom: 50px;
-  font-size: 1.5rem;
-}
-nav .nav-items .nav-item:hover {
-  color: #cba35c;
-  cursor: pointer;
-}
-nav .nav-close-icon {
-  position: absolute;
-  top: -260px;
-  right: -35px;
-  z-index: 10;
-}
+
 /* Nav Sub-Section */
 .nav-submenu {
   display: flex;
@@ -302,10 +270,89 @@ nav .nav-close-icon {
   font-size: 1rem;
   color: #fff;
 }
-/* Media Query Header */
-@media only screen and (max-width: 700px) {
-  .logo-name .logo-dumsi h1 {
+/* Media Query Section */
+@media screen and (max-width: 800px) {
+  /* .logo-name .logo-dumsi h1 {
     font-family: "Great Vibes";
+  } */
+  nav .nav-items-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    right: 250px;
+  }
+  nav .nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 10;
+  }
+  nav .nav-items .nav-item {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+  }
+  nav .nav-items .nav-item:hover {
+    color: #cba35c;
+    cursor: pointer;
+  }
+  nav .nav-close-icon {
+    position: absolute;
+    top: -260px;
+    right: -35px;
+    z-index: 10;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* .logo-name .logo-dumsi h1 {
+    font-family: "Great Vibes";
+  } */
+  nav .nav-items-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 359px;
+    right: 250px;
+  }
+  nav .nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    z-index: 10;
+  }
+  nav .nav-items .nav-item {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+  }
+  nav .nav-items .nav-item:hover {
+    color: #cba35c;
+    cursor: pointer;
+  }
+  nav .nav-close-icon {
+    position: absolute;
+    top: -260px;
+    right: -35px;
+    z-index: 10;
   }
 }
 
