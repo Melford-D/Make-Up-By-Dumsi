@@ -1,16 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import {data} from '../data'
-import Main from './Main';
+import MainProvider from './Main';
+
 const Home = () => {
     const [img, setImg] = useState(data);
-    // useEffect(() => {
-    //   return(setImg(()=>console.log("hello world")
-    //   ));
-    // },[img])
     return (
         <header>
-            <Main/>
-        <div className="wrapper">
+            <MainProvider/>
+              <div className="wrapper">
           {img.map((item) => {
               const {id, name, url} = item;
               return(
@@ -19,7 +16,7 @@ const Home = () => {
                   </article>
               )
           })}
-        </div>
+          </div>
         </header>
     )
 }

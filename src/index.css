@@ -207,19 +207,71 @@ header {
   width: 100%;
   z-index: 5;
 }
+/* Nav Main Section */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background-color: #111;
   width: 100%;
   height: 12vh;
 }
+nav .nav-items-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 410px;
+  right: 250px;
+}
 nav .nav-items {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 300px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  z-index: 10;
 }
 nav .nav-items .nav-item {
   display: inline-block;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  font-size: 1.5rem;
+}
+nav .nav-items .nav-item:hover {
+  color: #cba35c;
+  cursor: pointer;
+}
+nav .nav-close-icon {
+  position: absolute;
+  top: -260px;
+  right: -35px;
+  z-index: 10;
+}
+/* Nav Sub-Section */
+.nav-submenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-submenu ul {
+  position: absolute;
+  font-style: italic;
+  font-weight: 300;
+  background-color: #cba35c;
+  color: #fff;
+  margin-top: 20px;
+  top: 78px;
+  left: 100px;
+  z-index: 10;
+}
+.nav-submenu ul li {
+  display: inline-block;
+  margin: 10px;
 }
 
 /* Logo */
@@ -252,37 +304,35 @@ nav .nav-items .nav-item {
 }
 /* Media Query Header */
 @media only screen and (max-width: 700px) {
-  .logo-name .logo-dumsi h1 {
+  /* .logo-name .logo-dumsi h1 {
     font-family: "Great Vibes";
-  }
+  } */
 }
 
 /* Main Section */
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main ul {
-  position: sticky;
-  font-style: italic;
-  font-weight: 300;
-  background-color: #cba35c;
-  color: #fff;
-}
-main ul li {
-  display: inline-block;
-  margin: 10px;
+  display: none;
 }
 
 /* Material UI Icons */
-.nav-icon > .MuiSvgIcon-root {
+.nav-menu-icon > .MuiSvgIcon-root {
   font-size: 2.5rem;
+  color: #fff;
   margin-right: 20px;
+}
+.nav-menu-icon > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  color: #cba35c;
+}
+
+.nav-close-icon > .MuiSvgIcon-root {
+  margin-right: 15px;
+  font-size: 2.5rem;
   color: #fff;
 }
-.nav-icon > .MuiSvgIcon-root:hover {
+.nav-close-icon > .MuiSvgIcon-root:hover {
   cursor: pointer;
+  color: #cba35c;
 }
 
 /* video */
@@ -304,9 +354,10 @@ main ul li {
   right: 0;
   width: 100%;
   height: 200%;
+  margin-left: 20px;
 }
 video {
-  margin-top: 30px;
+  margin-top: 60px;
   border: none;
   background-color: #111;
   background-blend-mode: multiply;

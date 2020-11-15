@@ -1,15 +1,13 @@
-import React from 'react'
+import React, { useState, createContext } from 'react';
 
-const Main = () => {
+
+const MainProvider = (props) => {
     return (
         <main>
-            <ul>
-                <li>Beauty</li>
-                <li>Cosmetic</li>
-                <li>Personal Care</li>
-            </ul>
+          <h1>Hello world</h1>
+          
         </main>
     )
 }
 
-export default Main
+export default MainProvider
