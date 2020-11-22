@@ -1,13 +1,14 @@
 import React, { useEffect, useState, useContext } from 'react';
-import {data} from '../data'
-import MainProvider from './Main';
+// import {data} from '../data'
+// import MainProvider from './Main';
 
 const Home = () => {
-    const [img, setImg] = useState(data);
+    // const [img, setImg] = useState(data);
     return (
-        <header>
-            <MainProvider/>
-              <div className="wrapper">
+        <>
+        <section className="section-1">
+            <h1>hello</h1>
+              {/* <div className="wrapper">
           {img.map((item) => {
               const {id, name, url} = item;
               return(
@@ -16,8 +17,9 @@ const Home = () => {
                   </article>
               )
           })}
-          </div>
-        </header>
+          </div> */}
+        </section>
+        </>
     )
 }
 
