@@ -47,6 +47,8 @@
     background-color: #111;
     color: #fff;
     z-index: 10;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
   .side-bar .side-bar-items .side-bar-item {
     display: inline-block;
