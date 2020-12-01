@@ -99,9 +99,6 @@ main {
   }
 }
 @media screen and (max-width: 730px) {
-  .logo-name .logo-dumsi h1 {
-    font-family: "Great Vibes", cursive;
-  }
   .logo-right {
     display: none;
   }
