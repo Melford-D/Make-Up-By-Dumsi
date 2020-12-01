@@ -64,8 +64,6 @@ nav {
   background-color: #cba35c;
   color: #fff;
   margin: 0 auto;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
   z-index: 2;
 }
 .nav-submenu ul li {
