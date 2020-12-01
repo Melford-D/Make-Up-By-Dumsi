@@ -94,14 +94,14 @@ main {
 
 /* Media Query Section */
 @media screen and (min-width: 730px) {
-  .logo-name .logo-dumsi h1 {
-    font-family: "Great Vibes", cursive;
-  }
   nav .nav-menu-icon {
     display: none;
   }
 }
 @media screen and (max-width: 730px) {
+  .logo-name .logo-dumsi h1 {
+    font-family: "Great Vibes", cursive;
+  }
   .logo-right {
     display: none;
   }
