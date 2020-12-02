@@ -51,7 +51,10 @@ nav {
   font-size: 1rem;
   color: #fff;
 }
-
+.logo-link a {
+  text-decoration: none;
+  border: none;
+}
 /* Nav Sub-Section */
 .nav-submenu {
   display: flex;
@@ -82,6 +85,20 @@ main {
 /* Media Query Section */
 
 @media screen and (max-width: 730px) {
+  .home-page,
+  .about-page,
+  .contacts-page,
+  .services-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    flex: 1;
+  }
+
   .logo-right {
     display: none;
   }

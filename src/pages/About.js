@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import '../components/Nav.css';
 
 function About() {
     return (
         <>
-          <Link to="/about">
+        <section className="about-page">
+          <Link to="/about" style={{textDecoration: "none", color: "#000"}}>
               <h1>Hello from about</h1>
           </Link>
+        </section>
         </>
     )
 }

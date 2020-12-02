@@ -20,7 +20,9 @@ const Nav = () => {
                 </div>
                 <div className="logo-name">
                     <div className="logo-dumsi">
+                        <Link to="/" className="logo-link" style={{textDecoration: "none"}}>
                         <h1>Dumsi</h1>
+                        </Link>
                          <hr/>
                     </div>
                     <div className="logo-studio">   

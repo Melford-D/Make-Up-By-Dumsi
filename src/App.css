@@ -19,3 +19,16 @@ body {
 }
 
 /* Global reset */
+
+.home-page,
+.about-page,
+.contacts-page,
+.services-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}

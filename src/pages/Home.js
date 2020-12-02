@@ -1,5 +1,7 @@
 import { Link } from '@material-ui/core';
 import React, { useEffect, useState, useContext } from 'react';
+import '../components/Nav.css';
+
 // import {data} from '../data'
 // import MainProvider from './Main';
 
@@ -7,8 +9,8 @@ const Home = () => {
     // const [img, setImg] = useState(data);
     return (
         <>
-        <section className="section-1">
-            <Link to="/">
+        <section className="home-page">
+            <Link to="/" style={{textDecoration: "none", color: "#000"}}>
                 <h1>hello from home</h1>
             </Link>
             
