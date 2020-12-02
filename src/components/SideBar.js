@@ -26,7 +26,7 @@ const SideBar = () => {
         </div>
            
         <div className='side-bar'>
-            <div className='side-bar-container'>
+            <div className='side-bar-container' onClick={handleOpenMenu}>
             <ul className={isSideBarOpen ? "side-bar-items active" : "side-bar-items"}>
                 <li className="side-bar-item" >
                    <Link to ='#'  className="side-bar-close-icon">
