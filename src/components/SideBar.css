@@ -1,8 +1,44 @@
 .side-bar {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.side-bar-items {
+  opacity: 0;
+  transition: 850ms;
+}
+.side-bar-items.active {
+  opacity: 1;
+  transition: 450ms;
+}
+
+.side-bar-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.side-bar-item a:hover {
+  color: #cba35c;
+}
+/* Material UI Icons */
+.menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  padding-left: 10px;
+  z-index: 11;
+}
+.menu-icon > .MuiSvgIcon-root {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-right: 20px;
+}
+.menu-icon > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  color: #cba35c;
+}
+
 .side-bar-close-icon > .MuiSvgIcon-root {
   position: absolute;
   top: 260px;
@@ -18,10 +54,13 @@
 
 /* Media Query Section */
 @media screen and (min-width: 730px) {
+  .menu-icon {
+    display: none;
+  }
   .side-bar .side-bar-container {
     display: none;
   }
-  .side-bar .nav-menu-icon {
+  .side-bar .menu-icon {
     display: none;
   }
 }
@@ -44,7 +83,7 @@
     align-items: center;
     width: 362px;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #111;
     color: #fff;
     z-index: 10;
   }

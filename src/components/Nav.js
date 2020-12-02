@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
 import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
 
@@ -7,11 +6,11 @@ import './Nav.css';
 
 
 const Nav = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const handleOpenMenu = () => {
-        console.log('menu is open');   
-        setIsMenuOpen(true);
-    }
+    // const [isMenuOpen, setIsMenuOpen] = useState(true);
+    // const handleOpenMenu = () => {
+    //     console.log('menu is open');   
+    //     setIsMenuOpen(!isMenuOpen);
+    // }
     return (
         <>
         <nav>
@@ -33,9 +32,9 @@ const Nav = () => {
                 </div>
             </div>
               
-            <Link to='#' className="nav-menu-icon">
+            {/* <Link to='#' className="nav-menu-icon">
                 <MenuIcon onClick={handleOpenMenu}/>
-            </Link>
+            </Link> */}
         </nav>
           <div className="nav-submenu">
              <ul>

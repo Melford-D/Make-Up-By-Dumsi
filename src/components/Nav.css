@@ -79,23 +79,8 @@ main {
   display: none;
 }
 
-/* Material UI Icons */
-.nav-menu-icon > .MuiSvgIcon-root {
-  font-size: 2.5rem;
-  color: #fff;
-  margin-right: 20px;
-}
-.nav-menu-icon > .MuiSvgIcon-root:hover {
-  cursor: pointer;
-  color: #cba35c;
-}
-
 /* Media Query Section */
-@media screen and (min-width: 730px) {
-  nav .nav-menu-icon {
-    display: none;
-  }
-}
+
 @media screen and (max-width: 730px) {
   .logo-right {
     display: none;

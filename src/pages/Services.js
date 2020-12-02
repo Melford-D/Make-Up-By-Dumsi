@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Services = () => {
     return (
         <div>
-            Hello from services
+            <Link to="/services">
+                <h1>hello from services</h1>
+            </Link>
         </div>
     )
 }

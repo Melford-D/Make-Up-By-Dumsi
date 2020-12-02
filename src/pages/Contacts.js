@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Contacts = () => {
     return (
         <div>
-            hello from contact
+            <Link to="/contacts">
+                <h1>hello from contact</h1>
+            </Link>
         </div>
     )
 }

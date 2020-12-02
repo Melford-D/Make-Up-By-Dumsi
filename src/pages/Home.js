@@ -1,3 +1,4 @@
+import { Link } from '@material-ui/core';
 import React, { useEffect, useState, useContext } from 'react';
 // import {data} from '../data'
 // import MainProvider from './Main';
@@ -7,7 +8,10 @@ const Home = () => {
     return (
         <>
         <section className="section-1">
-            <h1>hello</h1>
+            <Link to="/">
+                <h1>hello from home</h1>
+            </Link>
+            
               {/* <div className="wrapper">
           {img.map((item) => {
               const {id, name, url} = item;
