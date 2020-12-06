@@ -12,6 +12,10 @@ const Home = () => {
         <section className="home-page">
             <Link to="/" style={{textDecoration: "none", color: "#000"}}>
                 <h1>hello from home</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
             </Link>
             
               {/* <div className="wrapper">
