@@ -6,11 +6,6 @@ import './Nav.css';
 
 
 const Nav = () => {
-    // const [isMenuOpen, setIsMenuOpen] = useState(true);
-    // const handleOpenMenu = () => {
-    //     console.log('menu is open');   
-    //     setIsMenuOpen(!isMenuOpen);
-    // }
     return (
         <>
         <nav>
@@ -33,10 +28,6 @@ const Nav = () => {
                    <img src={Logo} alt="logo" />
                 </div>
             </div>
-              
-            {/* <Link to='#' className="nav-menu-icon">
-                <MenuIcon onClick={handleOpenMenu}/>
-            </Link> */}
         </nav>
           <div className="nav-submenu">
              <ul>
