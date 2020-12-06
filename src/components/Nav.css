@@ -99,7 +99,6 @@ main {
   }
 
   .home-page {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +118,6 @@ main {
     color: chocolate;
   }
   .about-page {
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
