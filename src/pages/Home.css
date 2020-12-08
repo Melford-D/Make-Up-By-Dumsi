@@ -38,6 +38,19 @@
     margin: 5px;
     box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
   }
+
+  /* Video section */
+  .video-container {
+    background-color: orange;
+  }
+  .video-wrapper video {
+    max-width: 300px;
+    width: 80%;
+    height: 90%;
+    margin-left: 260px;
+    margin-top: 20px;
+    box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
+  }
 }
 
 /* DESKTOP SCREENS */

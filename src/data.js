@@ -1,10 +1,10 @@
-// export const videoData = [
-//     {
-//         id: 1,
-//         name: 'video clip',
-//         url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t50.2886-16/124973051_717384845559150_2136971628738358664_n.mp4?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=U-DIe0FtowIAX891Tav&oe=5FB077E7&oh=3d8ae66fb0fdeb642ee7d18f450bc2e0',
-//     }
-// ]
+export const videoData = [
+    {
+        id: 1,
+        name: 'video clip',
+        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t50.2886-16/124973051_717384845559150_2136971628738358664_n.mp4?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=-kxkqm2HpSgAX8VOlVl&oe=5FD16D67&oh=6ac357d8444cece9eef01c7dbb6ec547',
+    }
+]
 
 export const imageData = [
     {
@@ -30,7 +30,7 @@ export const imageData = [
     {
         id: 5,
         name: 'makeup-pictures',
-        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.120.960.960a/s150x150/50119026_2455417487833375_3865027863341303189_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=oUpbiFKCTrwAX-h8Jom&tp=1&oh=73383bfd0fc3eaedd37979180b6eb731&oe=5FF9CF6B'
+        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.180.1440.1440a/s150x150/117732305_408552810121908_1511259993941756643_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=x9sVmggfe6YAX_POBYo&tp=1&oh=b36603a8f807689c1d4cc766ed317a7d&oe=5FF8A1C0'
     },
 ]
 
