@@ -27,17 +27,13 @@ export const imageData = [
         name: 'makeup-pictures',
         url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/119866162_2804896359794912_7889201816008610581_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=vg8aCs5lONoAX-8tcvu&tp=1&oh=1036f6bbd2f5d47758d706305afba06f&oe=5FF834F3'
     },
-    {
-        id: 5,
-        name: 'makeup-pictures',
-        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.180.1440.1440a/s150x150/117732305_408552810121908_1511259993941756643_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=x9sVmggfe6YAX_POBYo&tp=1&oh=b36603a8f807689c1d4cc766ed317a7d&oe=5FF8A1C0'
-    },
 ]
 
 export const ceoImage = [
     {
         id: 1,
-        name: 'CEO of Dumsi MakeUp Studio',
-        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.180.1440.1440a/s150x150/118640620_127060385771143_7904082887141999112_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=W5OEIbTV4VMAX_-MHJ1&tp=1&oh=a6b90555023f42318c9b0ed5c3c3b113&oe=5FF9413A'
+        name: 'Mrs Dumsira Menegbo',
+        url: 'https://instagram.fabb1-1.fna.fbcdn.net/v/t51.2885-15/e35/c0.180.1440.1440a/s150x150/118640620_127060385771143_7904082887141999112_n.jpg?_nc_ht=instagram.fabb1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=W5OEIbTV4VMAX_-MHJ1&tp=1&oh=a6b90555023f42318c9b0ed5c3c3b113&oe=5FF9413A',
+        details: "Hi!, I am Dumsira. It's my pleasure meeting you to showcase my designs to you. My company is known for deliverying high quality makeup services as well as outdoor services like weddings, anniversary, etc. We look forward hearing from you. Thank you." 
     }
 ]

@@ -19,8 +19,11 @@
     flex: 1;
   }
   .home-page h1 {
+    font-family: "Nunito", sans-serif;
     text-align: center;
     font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
   }
   .home-page p {
     text-align: justify;

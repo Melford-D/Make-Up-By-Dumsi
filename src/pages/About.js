@@ -12,17 +12,16 @@ function About() {
           <Link to="/about" style={{textDecoration: "none", color: "#000"}}>
                 <div className="image-container">
                       {image.map((item) => {
-                      const {id, name, url} = item;
+                      const {id, name, url, details} = item;
                        return(
                          <div key={id} className="image-wrapper">
                       <img src={url} alt={name}/>
+                      <h1>Meet The ceo: {name} </h1>
+                       <p>{details}</p>
                 </div>
               )
           })}
           </div>
-              <h1>Meet The ceo</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit quaerat facere ea at ipsam asperiores veritatis aut ex sapiente, voluptates reiciendis, quam repellat, iste iure architecto facilis? Animi, molestias distinctio.</p>
           </Link>
         </section>
         </>
