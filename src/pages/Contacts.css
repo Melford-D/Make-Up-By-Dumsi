@@ -66,6 +66,11 @@
     margin-bottom: 20px;
   }
   /* Map Section */
+  .map-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
   .google-map {
     margin-bottom: 10px;
     max-width: 600px;
