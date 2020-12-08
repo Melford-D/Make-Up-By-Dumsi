@@ -63,5 +63,12 @@
   .social-icons > .MuiSvgIcon-root {
     color: #cba35c;
     font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* Map Section */
+  .google-map {
+    margin-bottom: 10px;
+    max-width: 600px;
+    box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
   }
 }
