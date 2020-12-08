@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
+import SideBar from './SideBar';
+
 
 import './Nav.css'; 
+import './SideBar.css';
 
 
 const Nav = () => {
@@ -36,6 +39,8 @@ const Nav = () => {
                  <li>Personal Care</li>
              </ul>
          </div>
+
+         <SideBar/>
         </>
     )
 }

@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './SideBar.css';
 import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
 import { Link } from 'react-router-dom';
 
 
@@ -28,11 +27,6 @@ const SideBar = () => {
         <div className='side-bar'>
             <div className='side-bar-container' onClick={handleOpenMenu}>
             <ul className={isSideBarOpen ? "side-bar-items active" : "side-bar-items"}>
-                <li className="side-bar-item" >
-                   <Link to ='#'  className="side-bar-close-icon">
-                      <CloseIcon />
-                   </Link>
-                </li>
                 <li className="side-bar-item">
                     <Link to="/" >Home</Link>
                 </li>

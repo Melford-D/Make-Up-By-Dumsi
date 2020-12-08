@@ -85,58 +85,6 @@ main {
 /* Media Query Section */
 
 @media screen and (max-width: 730px) {
-  .home-page,
-  .about-page,
-  .contacts-page,
-  .services-page {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  .home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    flex: 1;
-  }
-  .home-page h1 {
-    text-align: center;
-    font-size: 25px;
-  }
-  .home-page p {
-    text-align: justify;
-    font-size: 16px;
-    width: 90%;
-    padding: 0 24px;
-    margin: 10px;
-    color: chocolate;
-  }
-  .about-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    flex: 1;
-  }
-  .about-page h1 {
-    text-align: center;
-    font-size: 25px;
-  }
-  .about-page p {
-    text-align: justify;
-    font-size: 16px;
-    width: 90%;
-    padding: 0 24px;
-    margin: 10px;
-    color: chocolate;
-  }
-
   .logo-right {
     display: none;
   }
