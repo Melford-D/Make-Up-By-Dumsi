@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
+import Logo from '../images/logo.png';
 
 import { imageData } from '../data'
 
@@ -37,6 +38,12 @@ const Home = () => {
               })}
           </section> */}
            <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
+           <footer>
+                <hr />
+               <div className="footer-logo">
+                   <img src={Logo} alt="logo" />
+                </div>
+           </footer>
         </section>
         </>
     )

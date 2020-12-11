@@ -54,6 +54,27 @@
     margin-top: 20px;
     box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
   }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #111;
+    margin-bottom: 5px;
+    max-width: 600px;
+    border: 3px solid #cba35c;
+  }
+  footer hr {
+    width: -100%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .footer-logo img {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+  }
 }
 
 /* DESKTOP SCREENS */
