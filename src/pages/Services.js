@@ -16,6 +16,7 @@ const Services = () => {
                         <li>makeup class</li>
                     </ul>
                 </section>
+                <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
         </div>
     )
 }

@@ -9,7 +9,7 @@
     font-size: 1.5rem;
   }
   .services-page ul {
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 10px;
     list-style: none;
     font-family: "Nunito", sans-serif;
@@ -20,7 +20,7 @@
     box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
   }
   .services-page ul li {
-    margin-top: 20px;
+    margin-top: 25px;
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;

@@ -2,11 +2,11 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
-import {imageData, videoData} from '../data'
+import { imageData } from '../data'
 
 const Home = () => {
     const [image, setImage] = useState(imageData);
-    const [video, setVideo] = useState(videoData);
+    // const [video, setVideo] = useState(videoData);
     return (
         <>
         <section className="home-page">
@@ -23,7 +23,9 @@ const Home = () => {
           })}
           </div>
 
-          <section className="video-container">
+          {/* Add a video section later */}
+
+          {/* <section className="video-container">
               {video.map((item) => {
                   const {id, name, url} = item;
                   return(
@@ -33,7 +35,7 @@ const Home = () => {
                       </div>
                   )
               })}
-          </section>
+          </section> */}
            <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
         </section>
         </>

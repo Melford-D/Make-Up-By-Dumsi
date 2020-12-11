@@ -18,11 +18,12 @@ function About() {
                          <div key={id} className="image-wrapper">
                       <img src={url} alt={name}/>
                       <h1>Meet The ceo: {name} </h1>
-                       <p>{details}</p>
+                       <p className="description">{details}</p>
                 </div>
               )
           })}
           </div>
+          <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
         </section>
         </>
     )
