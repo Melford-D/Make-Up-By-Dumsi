@@ -6,7 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    flex-direction: column;
+    font-size: 2rem;
   }
   .services-page ul {
     margin: 50px auto;
@@ -32,12 +33,16 @@
     border-bottom: none;
   }
   .services-page h1 {
+    font-family: "Nunito", sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 12px;
   }
   .services-page p {
-    text-align: justify;
-    font-size: 16px;
+    text-align: center;
+    font-size: 18px;
     width: 90%;
     padding: 0 24px;
     margin: 10px;
