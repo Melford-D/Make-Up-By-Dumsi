@@ -7,9 +7,15 @@ import './Services.css';
 const Services = () => {
     return (
         <div>
-            <Link to="/services" style={{textDecoration: "none", color: "#000"}}>
-                <h1>N/A</h1>
-            </Link>
+            <Link to="/services" />
+                <section className="services-page">
+                    <ul>
+                        <li>makeup artist</li>
+                        <li>consultant</li>
+                        <li>beauty artist</li>
+                        <li>makeup class</li>
+                    </ul>
+                </section>
         </div>
     )
 }

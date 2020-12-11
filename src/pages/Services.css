@@ -6,17 +6,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
+    font-size: 1.5rem;
   }
-
-  .services-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    flex: 1;
+  .services-page ul {
+    margin: 10px auto;
+    padding: 10px;
+    list-style: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    background-color: orange;
+    max-width: 900px;
+    width: 80%;
+    box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
+  }
+  .services-page ul li {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid orangered;
+  }
+  .services-page ul li:nth-child(4) {
+    border-bottom: none;
   }
   .services-page h1 {
     text-align: center;

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, { useState } from 'react';
 import './SideBar.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
@@ -12,9 +12,7 @@ const SideBar = () => {
     const handleOpenMenu = () => {
         setIsSideBarOpen(!isSideBarOpen);
     }
-    useEffect(()=> {
-        handleOpenMenu();
-    },[])
+    
    
     return (
         <>

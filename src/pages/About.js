@@ -9,7 +9,8 @@ function About() {
     return (
         <>
         <section className="about-page">
-          <Link to="/about" style={{textDecoration: "none", color: "#000"}}>
+          <Link to="/about" />
+            <h1>About</h1>
                 <div className="image-container">
                       {image.map((item) => {
                       const {id, name, url, details} = item;
@@ -22,7 +23,7 @@ function About() {
               )
           })}
           </div>
-          </Link>
+           <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
         </section>
         </>
     )

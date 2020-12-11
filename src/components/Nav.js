@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
-import SideBar from './SideBar';
-
-
 import './Nav.css'; 
 import './SideBar.css';
 
@@ -32,6 +29,25 @@ const Nav = () => {
                 </div>
             </div>
         </nav>
+        <div className='side-bar'>
+            <div className='side-bar-container'>
+            <ul className="side-bar-items">
+                <li className="side-bar-item">
+                    <Link to="/" >Home</Link>
+                </li>
+                <li className="side-bar-item">
+                     <Link to="/about" >About</Link>
+                </li>
+                <li className="side-bar-item">
+                     <Link to="/services" >Services</Link>
+                </li>
+                <li className="side-bar-item">
+                     <Link to="/contacts" >Contact</Link>
+                </li>
+            </ul>
+            </div>
+        </div>
+
           <div className="nav-submenu">
              <ul>
                  <li>Beauty</li>
@@ -39,8 +55,6 @@ const Nav = () => {
                  <li>Personal Care</li>
              </ul>
          </div>
-
-         <SideBar/>
         </>
     )
 }

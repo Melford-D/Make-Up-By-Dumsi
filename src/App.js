@@ -10,24 +10,22 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-// import SideBar from './components/SideBar';
 function App() {
   return (
     <div className="app">
       <Router>
         <Nav/>
-        {/* <SideBar /> */}
         <Switch>
           <Route exact path='/'>
               <Home/>
           </Route>
-          <Route exact path='/about'>
+          <Route path='/about'>
              <About/>
           </Route>
-          <Route exact path='/services'>
+          <Route path='/services'>
              <Services/>
           </Route>
-          <Route exact path='/contacts'>
+          <Route path='/contacts'>
              <Contacts/>
           </Route>
         </Switch>

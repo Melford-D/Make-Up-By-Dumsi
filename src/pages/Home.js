@@ -1,5 +1,5 @@
-import { Link } from '@material-ui/core';
 import React, { useEffect, useState, useContext } from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 import {imageData, videoData} from '../data'
@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <>
         <section className="home-page">
-            <Link to="/" style={{textDecoration: "none", color: "#000"}}>
-                <h1>We offer the best services!</h1>
+            <Link to="/" />
                     <div className="image-container">
+                      <h1>We offer the best services!</h1>
                       {image.map((item) => {
                       const {id, name, url} = item;
                        return(
@@ -34,7 +34,7 @@ const Home = () => {
                   )
               })}
           </section>
-            </Link>
+           <div class="elfsight-app-d42368f6-2094-4a8c-ac5a-8dc42d5a773f"></div>
         </section>
         </>
     )
