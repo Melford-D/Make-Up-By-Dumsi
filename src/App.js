@@ -10,10 +10,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div className="app">
       <Router>
+        <ScrollToTop/>
         <Nav/>
         <Switch>
           <Route exact path='/'>

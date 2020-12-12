@@ -23,14 +23,6 @@
     padding: 10px;
     margin-top: 10px;
   }
-  .contacts-page p {
-    text-align: justify;
-    font-size: 16px;
-    width: 90%;
-    padding: 0 24px;
-    margin: 10px;
-    color: chocolate;
-  }
   .contacts-container .contact-items {
     display: flex;
     justify-content: center;
@@ -39,7 +31,7 @@
     font-size: 24px;
   }
   hr {
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 2px solid #cba35c;
   }
   .contacts-container .contact-items .contact-item {
     list-style: none;
@@ -74,6 +66,6 @@
   .google-map {
     margin-bottom: 10px;
     max-width: 600px;
-    box-shadow: 12px 12px 12px 0.3px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.1);
   }
 }

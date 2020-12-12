@@ -18,7 +18,7 @@ const Contacts = () => {
                         <li className="contact-item social-icon">
                            <CallIcon/>
                         </li>
-                        <li className="contact-item">07033482275,</li>
+                        <li className="contact-item">07033482275</li>
                         <li className="contact-item">07081134750</li>
                         <li className="contact-item">
                           <EmailIcon/>
