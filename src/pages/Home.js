@@ -12,7 +12,7 @@ const Home = () => {
         <section className="home-page">
             <Link to="/" />
                     <div className="image-container">
-                      <h1 id="top-page">We offer the best services!</h1>
+                      <h1>We offer the best services!</h1>
                       {image.map((item) => {
                       const {id, name, url} = item;
                        return(
@@ -27,9 +27,7 @@ const Home = () => {
            <footer>
                 <hr />
                <div className="footer-logo">
-                   <a href="#top-page">
                      <img src={Logo} alt="logo" />
-                   </a>
                 </div>
            </footer>
         </section>

@@ -1,11 +1,12 @@
-.side-bar {
+.menu-bar {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 
-.side-bar-container {
+.menu-bar-container {
   position: relative;
   width: 100%;
   z-index: 20;
@@ -14,11 +15,11 @@
   align-items: center;
 }
 
-.side-bar-item a {
+.menu-bar-item a {
   text-decoration: none;
   color: #fff;
 }
-.side-bar-item a:hover {
+.menu-bar-item a:hover {
   color: #cba35c;
 }
 /* Material UI Icons */
@@ -39,7 +40,7 @@
   color: #cba35c;
 }
 
-.side-bar-close-icon > .MuiSvgIcon-root {
+.menu-bar-close-icon > .MuiSvgIcon-root {
   position: absolute;
   top: 260px;
   right: 180px;
@@ -47,42 +48,23 @@
   font-size: 2.5rem;
   color: #fff;
 }
-.side-bar-close-icon > .MuiSvgIcon-root:hover {
+.menu-bar-close-icon > .MuiSvgIcon-root:hover {
   cursor: pointer;
   color: #cba35c;
 }
 
 /* Media Query Section */
-@media screen and (min-width: 730px) {
-  .menu-icon {
-    display: none;
-  }
-  .side-bar .side-bar-container {
-    display: none;
-  }
-  .side-bar .menu-icon {
-    display: none;
-  }
-}
-@media screen and (max-width: 730px) {
+
+@media (max-width: 4096px) {
   .nav-menu-icon {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .side-bar .side-bar-container {
+  .menu-bar .menu-bar-container {
     position: relative;
   }
-  .side-bar-items {
-    transition: 850ms;
-  }
-  .side-bar-items.active {
-    top: 0;
-    left: 0;
-    transition: 450ms;
-  }
-
-  .side-bar .side-bar-container .side-bar-items {
+  .menu-bar .menu-bar-container .menu-bar-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -92,21 +74,24 @@
     color: #fff;
     z-index: 10;
   }
-  .side-bar .side-bar-items .side-bar-item {
+  .menu-bar .menu-bar-items .menu-bar-item {
     margin-left: 0 auto;
     padding: 10px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
     list-style: none;
   }
-  .side-bar .side-bar-items .side-bar-item:hover {
+  .menu-bar .menu-bar-items .menu-bar-item:hover {
     color: #cba35c;
     cursor: pointer;
   }
 }
 
-@media screen and (max-width: 369px) {
-  .side-bar .side-bar-container .side-bar-items {
+@media (max-width: 369px) {
+  .menu-bar .menu-bar-container .menu-bar-items {
     max-width: 500px;
+  }
+  .menu-bar .menu-bar-container .menu-bar-items .menu-bar-item {
+    font-size: 15px;
   }
 }

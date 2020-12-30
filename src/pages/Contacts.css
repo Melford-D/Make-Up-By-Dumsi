@@ -1,6 +1,6 @@
 /* Media Query Section */
 
-@media screen and (max-width: 730px) {
+@media (max-width: 4096px) {
   .contacts-page {
     position: relative;
     display: flex;
@@ -17,7 +17,7 @@
   }
   .contacts-page h1 {
     text-align: center;
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 25px;
     font-weight: bold;
     padding: 10px;
@@ -29,6 +29,8 @@
     align-content: center;
     flex-direction: column;
     font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
   }
   hr {
     border-bottom: 2px solid #cba35c;
@@ -67,5 +69,18 @@
     margin-bottom: 10px;
     max-width: 600px;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.1);
+  }
+}
+@media (max-width: 369px) {
+  .contact-item {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .google-map {
+    object-fit: contain;
+    width: 80%;
+    height: 300px !important;
+    margin-bottom: 10px;
   }
 }

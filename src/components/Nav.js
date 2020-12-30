@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import './Nav.css'; 
-import './SideBar.css';
+import './MenuBar.css';
 
 
 const Nav = () => {
@@ -29,19 +29,19 @@ const Nav = () => {
                 </div>
             </div>
         </nav>
-        <div className='side-bar'>
-            <div className='side-bar-container'>
-            <ul className="side-bar-items">
-                <li className="side-bar-item">
+        <div className='menu-bar'>
+            <div className='menu-bar-container'>
+            <ul className="menu-bar-items">
+                <li className="menu-bar-item">
                     <Link to="/" >Home</Link>
                 </li>
-                <li className="side-bar-item">
+                <li className="menu-bar-item">
                      <Link to="/about" >About</Link>
                 </li>
-                <li className="side-bar-item">
+                <li className="menu-bar-item">
                      <Link to="/services" >Services</Link>
                 </li>
-                <li className="side-bar-item">
+                <li className="menu-bar-item">
                      <Link to="/contacts" >Contact</Link>
                 </li>
             </ul>

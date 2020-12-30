@@ -1,6 +1,6 @@
 /* Media Query Section */
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 4096px) {
   .services-page {
     position: relative;
     display: flex;
