@@ -80,6 +80,15 @@ nav {
 }
 
 /* Media Query Section */
+@media (min-width: 200px) {
+  .nav-submenu ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+    margin: 13px;
+  }
+}
 
 @media (max-width: 730px) {
   .logo-right {
@@ -94,6 +103,13 @@ nav {
     align-items: center;
     margin: 0 auto;
   }
+  .nav-submenu ul li {
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    padding: 0 5px;
+    margin: 20px;
+  }
 }
 @media (max-width: 600px) {
   .logo-name {
@@ -102,11 +118,25 @@ nav {
     align-items: center;
     flex-direction: column;
   }
+  .nav-submenu ul li {
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    padding: 0 5px;
+    margin: 20px;
+  }
 }
 @media (max-width: 598px) {
   .logo-name h2 {
     position: relative;
     margin-right: 5px;
+  }
+  .nav-submenu ul li {
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    padding: 0 5px;
+    margin: 20px;
   }
 }
 @media (max-width: 369px) {
@@ -154,13 +184,5 @@ nav {
   }
   nav .nav-items-container .nav-items {
     width: 400px;
-  }
-}
-@media (max-width: 320px) {
-  .nav-submenu ul li {
-    position: relative;
-    font-size: 12px;
-    padding: 0 5px;
-    margin: 13px;
   }
 }
