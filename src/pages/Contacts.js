@@ -28,12 +28,12 @@ const Contacts = () => {
                     <hr/>
                     <ul className="contact-items-icons">
                         <li className="contact-item-icon">
-                            <a href="https://www.instagram.com/makeupbydumsi/"  target="_blank" className="social-icons">
+                            <a href="https://www.instagram.com/makeupbydumsi/"  target="_blank" className="social-icons" rel="noreferrer">
                                 <InstagramIcon/>
                             </a>
                         </li>
                         <li className="contact-item-icon">
-                           <a href="https://web.facebook.com/Dumsi.Birakor" target="_blank" className="social-icons">
+                           <a href="https://web.facebook.com/Dumsi.Birakor" target="_blank" className="social-icons" rel="noreferrer">
                                <FacebookIcon/>
                            </a>
                         </li>

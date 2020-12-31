@@ -1,10 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './About.css';
 import {ceoImage} from '../data'
 
 function About() {
     const [image, setImage] = useState(ceoImage);
+
+    
+    useEffect(() => {
+      if (image === undefined ){
+        return setImage('Oops!!! Error loading images. Please check your internet connection.');
+      }
+    }, [image])
 
     return (
         <>

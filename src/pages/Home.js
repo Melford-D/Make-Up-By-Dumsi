@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Logo from '../images/logo.png';
@@ -7,6 +7,12 @@ import { imageData } from '../data'
 
 const Home = () => {
     const [image, setImage] = useState(imageData);
+
+    useEffect(() => {
+      if (image === undefined ){
+        return setImage('Oops!!! Error loading images. Please check your internet connection.');
+      }
+    }, [image])
     return (
         <>
         <section className="home-page">
@@ -27,7 +33,7 @@ const Home = () => {
            <footer>
                 <hr />
                <div className="footer-logo">
-                     <img src={Logo} alt="logo" />
+                     <img src={Logo} loading="lazy" alt="logo" />
                 </div>
            </footer>
         </section>
