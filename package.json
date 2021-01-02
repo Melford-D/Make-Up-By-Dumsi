@@ -1,5 +1,6 @@
 {
   "name": "makeup-by-dumsi",
+  "homepage": "http://makeupbydumsi.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
