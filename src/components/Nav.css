@@ -19,18 +19,20 @@ nav {
 
 /* Logo */
 .logo-left img {
-  display: flex;
-  justify-self: flex-start;
+  display: none;
+  /* future purpose */
+  /* justify-self: flex-start;
   width: 150px;
   height: 150px;
-  margin: 5px 0;
+  margin: 5px 0; */
 }
 .logo-right img {
-  display: flex;
-  justify-self: flex-start;
+  display: none;
+  /* future purpose */
+  /* justify-self: flex-start;
   width: 150px;
   height: 150px;
-  margin: 5px 0;
+  margin: 5px 0; */
 }
 .logo-name {
   margin: 0 auto;
@@ -133,22 +135,10 @@ nav {
 }
 @media (max-width: 420px) {
   .logo-left img {
-    display: flex;
-    justify-content: left;
-    width: 90px;
-    height: 90px;
-    align-items: center;
-    position: relative;
-    margin-left: 30px;
+    display: none;
   }
   .logo-right img {
-    display: flex;
-    justify-content: right;
-    width: 90px;
-    height: 90px;
-    align-items: center;
-    position: relative;
-    margin-right: 30px;
+    display: none;
   }
 }
 @media (max-width: 369px) {
@@ -205,21 +195,9 @@ nav {
     margin: 12px;
   }
   .logo-left img {
-    display: flex;
-    justify-content: left;
-    width: 65px;
-    height: 65px;
-    align-items: center;
-    position: relative;
-    margin-left: 30px;
+    display: none;
   }
   .logo-right img {
-    display: flex;
-    justify-content: right;
-    width: 65px;
-    height: 65px;
-    align-items: center;
-    position: relative;
-    margin-right: 30px;
+    display: none;
   }
 }
