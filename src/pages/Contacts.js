@@ -40,7 +40,7 @@ const Contacts = () => {
                     </ul>
 
                 <div className="map-container">
-                     <iframe className="google-map" width="90%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=No%207%20Kusimo%20street%20opposite%20The%20Chicken%20Republic%20Aguda%20Surulere%20Lagos+(My%20Business%20Address)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
+                     <iframe title="Google map" className="google-map" width="90%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=No%207%20Kusimo%20street%20opposite%20The%20Chicken%20Republic%20Aguda%20Surulere%20Lagos+(My%20Business%20Address)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
                  </div>
                 </div>
 
